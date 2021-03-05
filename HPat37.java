@@ -12,7 +12,7 @@ class HPat37{
 			int k = 1;
 			for(int j = 1 ; j<=st;j++){ //no of stars
 				System.out.print(k);
- 				if(j<i){
+ 				if(j<st/2){
 					k++;
 				}
 				else{
